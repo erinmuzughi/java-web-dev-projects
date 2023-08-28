@@ -9,26 +9,26 @@ public class Student {
         public String getName() {
                 return name;
         }
-        public void setName(String aName) {
-                this.name = aName;
+        public void setName(String name) {
+                this.name = name;
         }
         public int getStudentId() {
                 return studentId;
         }
-        public void setStudentId(int aStudentId) {
-                this.studentId = aStudentId;
+        public void setStudentId(int studentId) {
+                this.studentId = studentId;
         }
         public int getNumberOfCredits() {
                 return numberOfCredits;
         }
-        public void setNumberOfCredits(int aNumberOfCredits) {
-                this.numberOfCredits = aNumberOfCredits;
+        public void setNumberOfCredits(int numberOfCreditss) {
+                this.numberOfCredits = numberOfCredits;
         }
         protected double getGpa() {
                 return gpa;
         }
-        protected void setGpa(double aGpa) {
-                this.gpa = aGpa;
+        protected void setGpa(double gpa) {
+                this.gpa = gpa;
         }
         public Student(String name, int studentId, int numberOfCredits, double gpa) {
                 this.name = name;
