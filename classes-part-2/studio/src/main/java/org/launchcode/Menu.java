@@ -21,11 +21,11 @@ public class Menu {
     }
 
     public Date getLastUpdated() {
-        return this.lastUpdated;
+        return lastUpdated;
     }
 
     public ArrayList<MenuItem> getItems() {
-        return this.items;
+        return items;
     }
 
     public void addMenuItem(MenuItem item) {
