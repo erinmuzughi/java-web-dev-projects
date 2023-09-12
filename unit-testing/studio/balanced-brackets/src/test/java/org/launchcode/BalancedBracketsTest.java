@@ -85,21 +85,3 @@ class BalancedBracketsTest {
 
 }
 
-
-/*
-
- *
- none of which mis-nest. We consider a bracket
- * to be square-brackets: [ or ].
- *
- * The string may contain non-bracket characters as well.
- *
- * These strings have balanced brackets:
- * "Launch[Code]", "[]LaunchCode",
- *
- * While these do not:
- *   "[LaunchCode", "Launch]Code[", "[", "]["
- *
- * @param str - to be validated
- * @return true if balanced, false otherwise
- */
