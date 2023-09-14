@@ -1,9 +1,10 @@
 public class MenuItem {
     private String name;
-    private double price;
     private String description;
+    private double price;
     private String category; //would be better to use an array and select from a list but because we aren't getting user input here, we will leave alone.
     private boolean isNew;
+    private LocalDate dateAdded;
 
     //set constructor for our class
     public MenuItem(String name, double price, String description, String category, boolean isNew) {
@@ -18,9 +19,6 @@ public class MenuItem {
         this(name, price, description, category, true);
     }
     //set our getters and setters
-    public String getName() {
-        return name;
-    }
 
     public void setName(String name) {
         this.name = name;
